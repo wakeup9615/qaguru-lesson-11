@@ -49,7 +49,7 @@ public class SystemPropertiesTests {
     }
 
     @Test
-    @Tag("test7") //vgradle clean properties_test7 -DanyText=world!
+    @Tag("test7") //gradle clean properties_test7 -DanyText=world!
     void someTest7() {
         System.out.println("hello " + System.getProperty("anyText"));
     }
